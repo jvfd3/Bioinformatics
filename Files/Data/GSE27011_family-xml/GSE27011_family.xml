@@ -1,0 +1,3588 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Christina</First><Last>Orsmark Pietras</Last></Person>
+    <Organization>Karolinska Institutet</Organization>
+    <Address>
+      <Line>Hälsovägen 7-9</Line>
+      <City>Stockholm</City>
+      <Zip-Code>11767</Zip-Code>
+      <Country>Sweden</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization></Organization>
+    <Email>geo@ncbi.nlm.nih.gov, support@affymetrix.com</Email>
+    <Phone>888-362-2447</Phone>
+    <Organization>Affymetrix, Inc.</Organization>
+    <Address>
+      <City>Santa Clara</City>
+      <State>CA</State>
+      <Zip-Code>95051</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>http://www.affymetrix.com/index.affx</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Christina</First><Middle>O</Middle><Last>Pietras</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Erik</First><Last>Melén</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL6244">
+    <Status database="GEO">
+      <Submission-Date>2007-12-05</Submission-Date>
+      <Release-Date>2007-12-05</Release-Date>
+      <Last-Update-Date>2020-03-05</Last-Update-Date>
+    </Status>
+    <Title>[HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]</Title>
+    <Accession database="GEO">GPL6244</Accession>
+    <Technology>in situ oligonucleotide</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Affymetrix</Manufacturer>
+    <Manufacture-Protocol>
+See manufacturer's web site
+
+    </Manufacture-Protocol>
+    <Description>
+Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html
+
+June 03, 2009: annotation table updated with netaffx build 28
+June 18, 2012: annotation table updated with netaffx build 32
+July 01, 2016: annotation table updated with netaffx build 35
+    </Description>
+    <Web-Link>http://www.affymetrix.com/support/technical/byproduct.affx?product=hugene-1_0-st-v1</Web-Link>
+    <Web-Link>http://www.affymetrix.com/support/technical/libraryfilesmain.affx</Web-Link>
+    <Relation type="Alternative to" target="GPL10063" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL10666" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL11209" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL13243" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_11.0.1]" />
+    <Relation type="Alternative to" target="GPL14010" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL15034" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_v14]" />
+    <Relation type="Alternative to" target="GPL15424" comment="alternative CDF [HuGene10stv1_Hs_ENST]" />
+    <Relation type="Alternative to" target="GPL15648" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL15969" comment="Alternative CDF [HuGene1_0_genecentric]" />
+    <Relation type="Alternative to" target="GPL16239" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL16332" comment="Alternative CDF [MMBGX-Ensembl64]" />
+    <Relation type="Alternative to" target="GPL16522" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_15.1.0]" />
+    <Relation type="Alternative to" target="GPL16786" comment="Alternative CDF [HuGene10stv1_Hs_ENSG_v13.0.0]" />
+    <Relation type="Alternative to" target="GPL16987" comment="Alternative CDF [GATExplorer_Ensembl v57]" />
+    <Relation type="Alternative to" target="GPL17047" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_15.0.0]" />
+    <Relation type="Alternative to" target="GPL17244" comment="Alternative CDF [HuGene10stv1_Hs_ENTREZG_16.0.0]" />
+    <Relation type="Alternative to" target="GPL17556" comment="alternative" />
+    <Relation type="Alternative to" target="GPL17737" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL18401" comment="AltAnalyze probeset-to-Ensembl" />
+    <Relation type="Alternative to" target="GPL18412" comment="Alternative CDF [hugene10stv1_74_030]" />
+    <Relation type="Alternative to" target="GPL18695" comment="alternative CDF[Hugene10st_Hs_ENST_16.0.0]" />
+    <Relation type="Alternative to" target="GPL19145" comment="Alternative CDF [hugene10st_Hs_ENSG_16.0.0]" />
+    <Relation type="Alternative to" target="GPL19433" comment="Alternative CDF [hugene10st_Hs_ENSGvs1500.cdf]" />
+    <Relation type="Alternative to" target="GPL20171" comment="Alternative CDF [hugene10st_Hs_ENTREZG_19.0.0]" />
+    <Relation type="Alternative to" target="GPL23526" comment="Alternative CDF [hugene10st_Hs_ENTREZG_20]" />
+    <Relation type="Alternative to" target="GPL27927" comment="Alternative CDF" />
+    <Relation type="Alternative to" target="GPL28228" comment="Alternative CDF [HuGene10stv1_Hs_REFSEQ_23.0.0]" />
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>transcript_cluster_id </Description>
+        <Link-Prefix>https://www.affymetrix.com/LinkServlet?array=HuGene-1_0-st-v1&amp;probeset=</Link-Prefix>
+      </Column>
+      <Column position="2">
+        <Name>GB_LIST</Name>
+        <Description>GenBank and RefSeq Accessions from mrna_assignment column  </Description>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/nuccore/?term=</Link-Prefix>
+        <Link-Delimiter>,</Link-Delimiter>
+      </Column>
+      <Column position="3">
+        <Name>SPOT_ID</Name>
+        <Description>genomic location of the transcript cluster in the version of the genome assembly used at annotation time. Coordinates are standard 1-based (length=stop-start+1).</Description>
+      </Column>
+      <Column position="4">
+        <Name>seqname</Name>
+        <Description>chromosome number</Description>
+      </Column>
+      <Column position="5">
+        <Name>RANGE_GB</Name>
+        <Description>NCBI RefSeq for chromosome of current build</Description>
+      </Column>
+      <Column position="6">
+        <Name>RANGE_STRAND</Name>
+        <Description>strand  (+|-)</Description>
+      </Column>
+      <Column position="7">
+        <Name>RANGE_START</Name>
+        <Description>start  (integer). Coordinates are standard 1-based (length=stop-start+1).</Description>
+      </Column>
+      <Column position="8">
+        <Name>RANGE_STOP</Name>
+        <Description>stop  (integer). Coordinates are standard 1-based (length=stop-start+1).</Description>
+      </Column>
+      <Column position="9">
+        <Name>total_probes</Name>
+        <Description>Total number of probes contained by this transcript cluster.</Description>
+      </Column>
+      <Column position="10">
+        <Name>gene_assignment</Name>
+        <Description>Gene information for each assigned mRNA for mRNAs that corresponds to known genes (multipart).</Description>
+      </Column>
+      <Column position="11">
+        <Name>mrna_assignment</Name>
+        <Description>Description of the public mRNAs that should be detected by the sets within this transcript cluster based on sequence alignment (multipart).</Description>
+      </Column>
+      <Column position="12">
+        <Name>category</Name>
+        <Description>Array design category of the transcript cluster</Description>
+      </Column>
+    <External-Data rows="33297">
+GPL6244-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM665386">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_501</Title>
+    <Accession database="GEO">GSM665386</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+12
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665386/suppl/GSM665386.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665386-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665387">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_502</Title>
+    <Accession database="GEO">GSM665387</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+13
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665387/suppl/GSM665387.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665387-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665388">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_503</Title>
+    <Accession database="GEO">GSM665388</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+7
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665388/suppl/GSM665388.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665388-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665389">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_504</Title>
+    <Accession database="GEO">GSM665389</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+5
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665389/suppl/GSM665389.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665389-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665390">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_505</Title>
+    <Accession database="GEO">GSM665390</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+4
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665390/suppl/GSM665390.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665390-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665391">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_506</Title>
+    <Accession database="GEO">GSM665391</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+4
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665391/suppl/GSM665391.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665391-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665392">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_507</Title>
+    <Accession database="GEO">GSM665392</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+4
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665392/suppl/GSM665392.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665392-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665393">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_508</Title>
+    <Accession database="GEO">GSM665393</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+11
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665393/suppl/GSM665393.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665393-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665394">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_509</Title>
+    <Accession database="GEO">GSM665394</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+8
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665394/suppl/GSM665394.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665394-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665395">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_511</Title>
+    <Accession database="GEO">GSM665395</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+4
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665395/suppl/GSM665395.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665395-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665396">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_512</Title>
+    <Accession database="GEO">GSM665396</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665396/suppl/GSM665396.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665396-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665397">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_513</Title>
+    <Accession database="GEO">GSM665397</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+7
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665397/suppl/GSM665397.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665397-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665398">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_514</Title>
+    <Accession database="GEO">GSM665398</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665398/suppl/GSM665398.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665398-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665399">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_515</Title>
+    <Accession database="GEO">GSM665399</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665399/suppl/GSM665399.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665399-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665400">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_516</Title>
+    <Accession database="GEO">GSM665400</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665400/suppl/GSM665400.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665400-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665401">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_517</Title>
+    <Accession database="GEO">GSM665401</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665401/suppl/GSM665401.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665401-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665402">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_518</Title>
+    <Accession database="GEO">GSM665402</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+13
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665402/suppl/GSM665402.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665402-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665403">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>ctrl_519</Title>
+    <Accession database="GEO">GSM665403</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Healthy control</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+8
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Healthy controls
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665403/suppl/GSM665403.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665403-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665404">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_13</Title>
+    <Accession database="GEO">GSM665404</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+9.66
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665404/suppl/GSM665404.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665404-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665405">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_14</Title>
+    <Accession database="GEO">GSM665405</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15.72
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665405/suppl/GSM665405.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665405-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665406">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_15</Title>
+    <Accession database="GEO">GSM665406</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15.15
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665406/suppl/GSM665406.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665406-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665407">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_16</Title>
+    <Accession database="GEO">GSM665407</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+13.75
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665407/suppl/GSM665407.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665407-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665408">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_19</Title>
+    <Accession database="GEO">GSM665408</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+16.57
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665408/suppl/GSM665408.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665408-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665409">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_237</Title>
+    <Accession database="GEO">GSM665409</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+10.37
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665409/suppl/GSM665409.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665409-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665410">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_282</Title>
+    <Accession database="GEO">GSM665410</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+16.53
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665410/suppl/GSM665410.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665410-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665411">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_290</Title>
+    <Accession database="GEO">GSM665411</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+12.35
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665411/suppl/GSM665411.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665411-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665412">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_294</Title>
+    <Accession database="GEO">GSM665412</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+17.45
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665412/suppl/GSM665412.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665412-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665413">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_301</Title>
+    <Accession database="GEO">GSM665413</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+7.88
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665413/suppl/GSM665413.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665413-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665414">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_302</Title>
+    <Accession database="GEO">GSM665414</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+9.78
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665414/suppl/GSM665414.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665414-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665415">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_303</Title>
+    <Accession database="GEO">GSM665415</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+11.58
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665415/suppl/GSM665415.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665415-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665416">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_305</Title>
+    <Accession database="GEO">GSM665416</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+14.5
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665416/suppl/GSM665416.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665416-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665417">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_306</Title>
+    <Accession database="GEO">GSM665417</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+16.13
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665417/suppl/GSM665417.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665417-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665418">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_307</Title>
+    <Accession database="GEO">GSM665418</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+16.02
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665418/suppl/GSM665418.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665418-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665419">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_309</Title>
+    <Accession database="GEO">GSM665419</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+10.88
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665419/suppl/GSM665419.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665419-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665420">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_63</Title>
+    <Accession database="GEO">GSM665420</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+14.51
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665420/suppl/GSM665420.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665420-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665421">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_67</Title>
+    <Accession database="GEO">GSM665421</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+13.33
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665421/suppl/GSM665421.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665421-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665422">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>MA_94</Title>
+    <Accession database="GEO">GSM665422</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Mild asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+14.58
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with well controlled asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665422/suppl/GSM665422.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665422-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665423">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_101</Title>
+    <Accession database="GEO">GSM665423</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+11.16
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665423/suppl/GSM665423.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665423-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665424">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_114</Title>
+    <Accession database="GEO">GSM665424</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+14.94
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665424/suppl/GSM665424.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665424-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665425">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_12</Title>
+    <Accession database="GEO">GSM665425</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+13.07
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665425/suppl/GSM665425.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665425-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665426">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_201</Title>
+    <Accession database="GEO">GSM665426</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+16.94
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665426/suppl/GSM665426.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665426-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665427">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_252</Title>
+    <Accession database="GEO">GSM665427</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+10.58
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665427/suppl/GSM665427.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665427-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665428">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_253</Title>
+    <Accession database="GEO">GSM665428</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+17.74
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665428/suppl/GSM665428.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665428-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665429">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_257</Title>
+    <Accession database="GEO">GSM665429</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+9.84
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665429/suppl/GSM665429.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665429-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665430">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_258</Title>
+    <Accession database="GEO">GSM665430</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+16.28
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665430/suppl/GSM665430.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665430-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665431">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_259</Title>
+    <Accession database="GEO">GSM665431</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+8.38
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665431/suppl/GSM665431.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665431-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665432">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_260</Title>
+    <Accession database="GEO">GSM665432</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15.6
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665432/suppl/GSM665432.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665432-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665433">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_271</Title>
+    <Accession database="GEO">GSM665433</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15.23
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665433/suppl/GSM665433.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665433-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665434">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_291</Title>
+    <Accession database="GEO">GSM665434</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+8.31
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665434/suppl/GSM665434.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665434-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665435">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_292</Title>
+    <Accession database="GEO">GSM665435</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+10.6
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665435/suppl/GSM665435.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665435-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665436">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_51</Title>
+    <Accession database="GEO">GSM665436</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+15.59
+      </Characteristics>
+      <Characteristics tag="Sex">
+male
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665436/suppl/GSM665436.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665436-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665437">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_61</Title>
+    <Accession database="GEO">GSM665437</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+13.87
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665437/suppl/GSM665437.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665437-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665438">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_62</Title>
+    <Accession database="GEO">GSM665438</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+18.57
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665438/suppl/GSM665438.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665438-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM665439">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2011-12-01</Last-Update-Date>
+    </Status>
+    <Title>SA_71</Title>
+    <Accession database="GEO">GSM665439</Accession>
+    <Type>RNA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Severe asthma</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+white blood cells
+      </Characteristics>
+      <Characteristics tag="age">
+16.61
+      </Characteristics>
+      <Characteristics tag="Sex">
+female
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Ambion RiboPure blood extraction kit including DNAse treatment
+      </Extract-Protocol>
+      <Label>biotin</Label>
+      <Label-Protocol>
+Acccording to affymetrix standard proceedures
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+Acccording to affymetrix standard proceedures
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+Acccording to affymetrix standard proceedures
+    </Scan-Protocol>
+    <Description>
+Patient with severe, therapy resistent asthma
+    </Description>
+    <Data-Processing>
+affy package, justRMA, limma (Bioconductor)
+    </Data-Processing>
+    <Platform-Ref ref="GPL6244" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="CEL">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM665nnn/GSM665439/suppl/GSM665439.CEL.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Pre processed, normalized, log2 expression values</Description>
+      </Column>
+    <External-Data rows="28231">
+GSM665439-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE27011">
+    <Status database="GEO">
+      <Submission-Date>2011-02-02</Submission-Date>
+      <Release-Date>2011-12-01</Release-Date>
+      <Last-Update-Date>2018-07-26</Last-Update-Date>
+    </Status>
+    <Title>Expression data from severe asthmatics, mild asthmatics and healthy controls</Title>
+    <Accession database="GEO">GSE27011</Accession>
+    <Pubmed-ID>23222870</Pubmed-ID>
+    <Pubmed-ID>25256354</Pubmed-ID>
+    <Summary>
+Background: Around 5% of children with asthma suffer from chronic symptoms and/or severe exacerbations despite extensive treatment. The causes of severe therapy-resistant childhood asthma are poorly understood. Objectives: To define global patterns of gene expression in severe therapy-resistant vs. controlled asthma and healthy controls. Methods: Children with severe, therapy-resistant (SA, n=20) and controlled asthma (CA, n=20) were identified from a Swedish nation-wide study including extensive clinical and immunological characterisation. In addition, healthy controls were recruited (Ctrl, n=19). White blood cells were isolated and the global transcriptome profile was characterised using the Affymetrix Human Gene ST 1.0 chip. Results: 1378 genes were differentially expressed in one or several of the CA vs. Ctrl, SA vs. CA or SA vs. Ctrl contrasts. A large number could uniquely differentiate the SA group from the CA (n=351 genes) and Ctrl (n=315) groups, whereas fewer genes differentiated the CA from the Ctrl group (n=149). Several non-coding RNAs were found up-regulated in SA compared to CA or Ctrl. Three significantly enriched KEGG pathways were represented; bitter taste transduction, TAS2Rs (up-regulated mostly in SA), natural killer cell mediated cytotoxicity (up-regulated in CA) and N-Glycan biosynthesis (down-regulated in SA). An unsupervised hierarchical clustering of the 1378 genes could crudely separate the SA, CA and Ctrl individuals. Conclusion: Our data indicate a separation in gene expression patterns between children with severe, therapy-resistant asthma and controlled persistent asthma, and suggest novel pathways characterizing the severe therapy-resistant asthma phenotype.
+    </Summary>
+    <Overall-Design>
+The transcriptomes of 59 subjects were assayed on the Affymetrix Human Gene ST 1.0 expression array. All samples passed pre-hybridisation quality control. After pre-processing and quality control of the post-hybridised arrays, five samples were regarded as outliers and removed (ctrl 510, MA 248, SA 141, SA 261, SA 41). The remaining sample set of 17 severe asthmatics (SA), 19 mild asthmatics (MA) and 18 controls (ctrl) were used for down-stream analysis.
+    </Overall-Design>
+    <Type>Expression profiling by array</Type>
+    <Contributor-Ref ref="contrib3" position="1" />
+    <Contributor-Ref ref="contrib4" position="2" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM665386" />
+    <Sample-Ref ref="GSM665387" />
+    <Sample-Ref ref="GSM665388" />
+    <Sample-Ref ref="GSM665389" />
+    <Sample-Ref ref="GSM665390" />
+    <Sample-Ref ref="GSM665391" />
+    <Sample-Ref ref="GSM665392" />
+    <Sample-Ref ref="GSM665393" />
+    <Sample-Ref ref="GSM665394" />
+    <Sample-Ref ref="GSM665395" />
+    <Sample-Ref ref="GSM665396" />
+    <Sample-Ref ref="GSM665397" />
+    <Sample-Ref ref="GSM665398" />
+    <Sample-Ref ref="GSM665399" />
+    <Sample-Ref ref="GSM665400" />
+    <Sample-Ref ref="GSM665401" />
+    <Sample-Ref ref="GSM665402" />
+    <Sample-Ref ref="GSM665403" />
+    <Sample-Ref ref="GSM665404" />
+    <Sample-Ref ref="GSM665405" />
+    <Sample-Ref ref="GSM665406" />
+    <Sample-Ref ref="GSM665407" />
+    <Sample-Ref ref="GSM665408" />
+    <Sample-Ref ref="GSM665409" />
+    <Sample-Ref ref="GSM665410" />
+    <Sample-Ref ref="GSM665411" />
+    <Sample-Ref ref="GSM665412" />
+    <Sample-Ref ref="GSM665413" />
+    <Sample-Ref ref="GSM665414" />
+    <Sample-Ref ref="GSM665415" />
+    <Sample-Ref ref="GSM665416" />
+    <Sample-Ref ref="GSM665417" />
+    <Sample-Ref ref="GSM665418" />
+    <Sample-Ref ref="GSM665419" />
+    <Sample-Ref ref="GSM665420" />
+    <Sample-Ref ref="GSM665421" />
+    <Sample-Ref ref="GSM665422" />
+    <Sample-Ref ref="GSM665423" />
+    <Sample-Ref ref="GSM665424" />
+    <Sample-Ref ref="GSM665425" />
+    <Sample-Ref ref="GSM665426" />
+    <Sample-Ref ref="GSM665427" />
+    <Sample-Ref ref="GSM665428" />
+    <Sample-Ref ref="GSM665429" />
+    <Sample-Ref ref="GSM665430" />
+    <Sample-Ref ref="GSM665431" />
+    <Sample-Ref ref="GSM665432" />
+    <Sample-Ref ref="GSM665433" />
+    <Sample-Ref ref="GSM665434" />
+    <Sample-Ref ref="GSM665435" />
+    <Sample-Ref ref="GSM665436" />
+    <Sample-Ref ref="GSM665437" />
+    <Sample-Ref ref="GSM665438" />
+    <Sample-Ref ref="GSM665439" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE27nnn/GSE27011/suppl/GSE27011_RAW.tar
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA137597" />
+  </Series>
+
+</MINiML>
