@@ -2,17 +2,17 @@
 
 ## Original Data
 
-- [URL][URL]
-- [SOFT][SOFT]
-- [MINiML][MINiML]
-- [Series Matrix][Series]
-- [RAW][RAW]
+- [Source][URL]
+  - [SOFT][SOFT_URL]
+  - [MINiML][MINiML_URL]
+  - [Series Matrix][Series_URL]
+  - [RAW][RAW_URL]
 
 [URL]: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27011
-[SOFT]: GEO/GSE27011_family.soft
-[MINiML]: GEO/GSE27011_family-xml
-[Series]: GEO/GSE27011_series_matrix.txt
-[RAW]: GEO/GSE27011_RAW
+[SOFT_URL]: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE27nnn/GSE27011/soft/GSE27011_family.soft.gz
+[MINiML_URL]: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE27nnn/GSE27011/miniml/GSE27011_family.xml.tgz
+[Series_URL]: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE27nnn/GSE27011/matrix/GSE27011_series_matrix.txt.gz
+[RAW_URL]: https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE27011&format=file
 
 ## Used on scripts
 
