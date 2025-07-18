@@ -1,6 +1,67 @@
-# Supplementary Tables
+# Tables
 
-## Supplementary Table S1. Expression levels of the top 10 most important genes by the Information Gain algorithm (HC: Healthy control; SA: Severe asthma)
+## Tables on article
+
+### Table 1. Results of logistic regression models built for datasets DS1 and DS2
+
+| SVD                 | Dataset | Logistic Regression | Accuracy |    F1 | Precision | Recall | Specificity |
+| ------------------- | ------: | ------------------: | -------: | ----: | --------: | -----: | ----------: |
+| Without SVD         |     DS1 |          Lasso (L1) |    0.870 | 0.788 |     0.812 |  0.765 |       0.919 |
+| Without SVD         |     DS1 |          Ridge (L2) |    0.889 | 0.824 |     0.824 |  0.824 |       0.919 |
+| Without SVD         |     DS2 |          Lasso (L1) |    0.914 | 0.914 |     0.889 |  0.941 |       0.889 |
+| Without SVD         |     DS2 |          Ridge (L2) |    0.971 | 0.970 |     1.000 |  0.941 |       1.000 |
+| With SVD (factor 8) |     DS2 |          Lasso (L1) |    0.971 | 0.971 |     0.944 |  1.000 |       0.944 |
+| With SVD (factor 8) |     DS2 |          Ridge (L2) |    1.000 | 1.000 |     1.000 |  1.000 |       1.000 |
+
+### Table 2. Comparison among Logistic Regression models (L1 and L2), Random Forest, SVM, and KNN models
+
+1. Accuracy
+2. F-score
+
+| Model                          | (1) DS1 | (1) DS2 | (1) DS2+SVD | (2) DS1 | (2) DS2 | (2) DS2+SVD |
+| ------------------------------ | ------: | ------: | ----------: | ------: | ------: | ----------: |
+| Logistic Regression (Ridge L2) |   0.889 |   0.971 |       1.000 |   0.824 |   0.970 |       1.000 |
+| Logistic Regression (Lasso L1) |   0.870 |   0.914 |       0.971 |   0.788 |   0.914 |       0.971 |
+| Random Forest                  |   0.833 |   0.914 |       0.943 |   0.690 |   0.909 |       0.944 |
+| SVM                            |   0.778 |   0.886 |       0.886 |   0.667 |   0.882 |       0.875 |
+| kNN                            |   0.741 |   0.829 |       0.743 |   0.462 |   0.786 |       0.690 |
+
+### Table 3. Top 10 most important genes by the Information Gain algorithm
+
+|   # | Gene ID | Gene name  | Description                                                                 | Info. gain |
+| --: | ------: | ---------- | --------------------------------------------------------------------------- | ---------: |
+|  01 | 7944525 | RNU6-1123P | RNA, U6 small nuclear 1123, pseudogene                                      |      0.746 |
+|  02 | 8005829 | PYY2       | peptide YY, 2 (pseudogene)                                                  |      0.746 |
+|  03 | 8157727 | GPR21      | G protein-coupled receptor 21                                               |      0.746 |
+|  04 | 7907531 | GPR52      | G protein-coupled receptor 52                                               |      0.746 |
+|  05 | 7968295 | RNU6-82P   | RNA, U6 small nuclear 82, pseudogene                                        |      0.746 |
+|  06 | 8117018 | RNU6-522P  | RNA, U6 small nuclear 522, pseudogene                                       |      0.746 |
+|  07 | 8144512 | RNU6-682P  | RNA, U6 small nuclear 682, pseudogene                                       |      0.746 |
+|  08 | 7928489 | KAT6B      | K(lysine) acetyltransferase 6B                                              |      0.746 |
+|  09 | 8103620 | RNU6-1336P | RNA, U6 small nuclear 1336, pseudogene                                      |      0.673 |
+|  10 | 8151411 | TCEB1      | Transcription elongation factor B (SIII), polypeptide 1 (15kDa, elongin C)  |      0.617 |
+
+### Table 4. The top 10 genes that contribute most positively (Severe asthma class) and negatively (Healthy controls class) to the model according to the logistic regression model
+
+1. Positive
+2. Negative
+
+|   # | (1) Gene ID | (1) Gene name   | (1) Description                                   | (2) Gene ID | (2) Gene name | (2) Description                                                     |
+| --: | ----------: | --------------- | ------------------------------------------------- | ----------: | ------------- | ------------------------------------------------------------------- |
+|  01 |     8117018 | MYLIP           | Myosin regulatory light chain interacting protein |     8137264 | TMEM176A      | Transmembrane protein 176A                                          |
+|  02 |     7908861 | OCR1            | Ovarian cancer-related protein 1                  |     7983890 | GRINL1A       | Myocardial zonula adherens protein                                  |
+|  03 |     7967028 | RNU4-2          | RNA, U4 small nuclear 2                           |     8110971 | CMBL          | Carboxymethylenebutenolidase homolog                                |
+|  04 |     7928489 | KAT6B           | Lysine acetyltransferase 6B                       |     7904967 | RNVU1-19      | Variant U1 small nuclear 19                                         |
+|  05 |     8052581 | ENSG00000278523 | Novel ncRNA chr:2:61928634-61928704               |     8106025 | BDP1          | Subunit of RNA polymerase III transcription initiation factor IIIB  |
+|  06 |     8154211 | JAK2            | Janus kinase 2                                    |     7985431 | GOLGA2P3Y     | Golgin A2 pseudogene 3, Y-linked                                    |
+|  07 |     7968295 | RNU6-82P        | RNA, U6 small nuclear 82, pseudogene              |     8031570 | RFPL4A        | Ret finger protein like 4A                                          |
+|  08 |     8031152 | RPS9            | Ribosomal protein S9                              |     8007848 | MAPK8IP1      | Mitogen-activated protein kinase 8 interacting protein 1 pseudogene |
+|  09 |     8055639 | ZEB2            | Zinc finger E-box binding homeobox 2              |     8029693 | FOSB          | FosB proto-oncogene                                                 |
+|  10 |     7975453 | SNORD56B        | Small nucleolar RNA, C/D box 56B                  |     7914180 | SPCS2         | Signal peptidase complex subunit 2                                  |
+
+## Supplementary Tables
+
+### Supplementary Table S1. Expression levels of the top 10 most important genes by the Information Gain algorithm (HC: Healthy control; SA: Severe asthma)
 
 |   # | Class |        ID | 7944525 | 8005829 | 8157727 | 7907531 | 7968295 | 8117018 | 8144512 | 7928489 | 8103620 | 8151411 |
 | --: | ----: | --------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: |
@@ -40,7 +101,7 @@
 |  34 |    SA | GSM665438 |    7.21 |    5.57 |    6.67 |    7.08 |    4.59 |    6.46 |    3.02 |    7.97 |    2.42 |    7.86 |
 |  35 |    SA | GSM665439 |    7.44 |    6.73 |    7.13 |    7.64 |    5.58 |    6.40 |    2.92 |    8.02 |    2.38 |    7.95 |
 
-## Supplementary table S2. Expression levels of the top 10 genes that contribute most negatively (Healthy controls class) to the model according to the logistic regression model
+### Supplementary table S2. Expression levels of the top 10 genes that contribute most negatively (Healthy controls class) to the model according to the logistic regression model
 
 | class           | gene      | 8137264 | 7983890 | 8110971 | 7904967 | 8106025 | 7985431 | 8031570 | 8007848 | 8029693 | 7914180 |
 | --------------- | --------- | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: |
@@ -80,7 +141,7 @@
 | Severe asthma   | GSM665438 |    6.02 |    6.35 |    5.77 |    9.56 |    2.46 |    6.31 |    3.17 |    5.80 |    8.26 |    4.64 |
 | Severe asthma   | GSM665439 |    6.76 |    6.40 |    5.81 |    8.52 |    2.30 |    6.55 |    3.30 |    4.93 |    6.62 |    3.43 |
 
-## Supplementary table S3. The top 10 genes that contribute most positively (Severe asthma class) to the model according to the logistic regression model
+### Supplementary table S3. The top 10 genes that contribute most positively (Severe asthma class) to the model according to the logistic regression model
 
 | class           | gene      | 8117018 | 7908861 | 7967028 | 7928489 | 8052581 | 8154211 | 7968295 | 8031152 | 8055639 | 7975453 |
 | --------------- | --------- | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: | ------: |
