@@ -1,9 +1,9 @@
-%Esse gráfico mostra o vetor alpha, que contém os pesos 
+% Esse gráfico mostra o vetor alpha, que contém os pesos 
 % (ou coeficientes) calculados pelo seu modelo de regressão logística para cada gene (atributo).
 
-%Eixo X: posição do gene (ex: gene 1, gene 2, ..., gene 36).
+% Eixo X: posição do gene (ex: gene 1, gene 2, ..., gene 36).
 
-%Eixo Y: valor do peso (alpha) atribuído a esse gene no modelo.
+% Eixo Y: valor do peso (alpha) atribuído a esse gene no modelo.
 
 
 figure
