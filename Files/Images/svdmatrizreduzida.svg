@@ -136,37 +136,48 @@
     </g>
     <g transform="translate(91,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">0</text></g>
+      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">0</text>
+    </g>
     <g transform="translate(145.3,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">2</text></g>
+      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">2</text>
+    </g>
     <g transform="translate(199.6,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">4</text></g>
+      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">4</text>
+    </g>
     <g transform="translate(253.9,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">6</text></g>
+      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">6</text>
+    </g>
     <g transform="translate(308.2,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">8</text></g>
+      <text x="-5" xml:space="preserve" y="17" style="stroke:none;">8</text>
+    </g>
     <g transform="translate(362.5,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">10</text></g>
+      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">10</text>
+    </g>
     <g transform="translate(416.8,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">12</text></g>
+      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">12</text>
+    </g>
     <g transform="translate(471.1,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">14</text></g>
+      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">14</text>
+    </g>
     <g transform="translate(525.4,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">16</text></g>
+      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">16</text>
+    </g>
     <g transform="translate(579.7,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">18</text></g>
+      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">18</text>
+    </g>
     <g transform="translate(634,473.6667)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">20</text></g>
+      <text x="-9.5" xml:space="preserve" y="17" style="stroke:none;">20</text>
+    </g>
     <g
       style="fill:rgb(38,38,38); text-rendering:geometricPrecision; image-rendering:optimizeQuality; color-rendering:optimizeQuality; stroke-linejoin:round; stroke:rgb(38,38,38); color-interpolation:linearRGB; stroke-width:0.8333;">
       <line y2="39" style="fill:none;" x1="91" x2="91" y1="467" />
@@ -181,32 +192,41 @@
     </g>
     <g transform="translate(84.3333,467)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-10" xml:space="preserve" y="6.5" style="stroke:none;">0</text></g>
+      <text x="-10" xml:space="preserve" y="6.5" style="stroke:none;">0</text>
+    </g>
     <g transform="translate(84.3333,405.8571)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.1</text></g>
+      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.1</text>
+    </g>
     <g transform="translate(84.3333,344.7143)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.2</text></g>
+      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.2</text>
+    </g>
     <g transform="translate(84.3333,283.5714)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.3</text></g>
+      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.3</text>
+    </g>
     <g transform="translate(84.3333,222.4286)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.4</text></g>
+      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.4</text>
+    </g>
     <g transform="translate(84.3333,161.2857)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.5</text></g>
+      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.5</text>
+    </g>
     <g transform="translate(84.3333,100.1428)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.6</text></g>
+      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.6</text>
+    </g>
     <g transform="translate(84.3333,39)"
       style="font-size:16.6667px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38); color-interpolation:linearRGB;">
-      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.7</text></g>
+      <text x="-24" xml:space="preserve" y="6.5" style="stroke:none;">0.7</text>
+    </g>
     <g transform="translate(362.5003,36.25)"
       style="font-size:18.3333px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; color-interpolation:linearRGB; font-weight:bold;">
       <text x="-211.5" xml:space="preserve" y="-5" style="stroke:none;">Valores Singulares Relativos da Matriz
-        Reduzida</text></g>
+        Reduzida</text>
+    </g>
     <g transform="translate(118.15,43.2896)"
       style="stroke-linecap:butt; fill:rgb(0,114,189); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(0,114,189); color-interpolation:linearRGB; stroke-width:0.8333;">
       <path style="fill:none;"
