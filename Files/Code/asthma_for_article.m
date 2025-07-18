@@ -51,7 +51,7 @@ hold on
     ylabel('Produto do Segundo Padrão')
     plot3(x,y,z,'or')
     hold on
-    plot3(x(1:18), y(1:18), z(1:18),'+r') %Alterar 18 para o nº do seu primeiro grupo
+    plot3(x(1:18), y(1:18), z(1:18),'+r') % Alterar 18 para o nº do seu primeiro grupo
     grid on
 hold off
 
@@ -100,7 +100,7 @@ b(19:end) = lgch0;
 
 alpha = resolve(Ans', b);
 
-%Criação do Gráfico
+% Criação do Gráfico
 
 figure
 hold on
@@ -112,25 +112,23 @@ aux = Ans'* alpha;
 num = exp(aux);
 p = num./(1+num);
 
-%Criação do gráfico 
+% Criação do gráfico 
 figure
 plot(p,'*')
 hold off
 
-%Seleção dos 10 marcadores mais importantes
-[valores, pos] = sort(alpha); %pos é onde estão os valores negativos e positivos 
+% Seleção dos 10 marcadores mais importantes
+[valores, pos] = sort(alpha); % pos é onde estão os valores negativos e positivos 
 escolha = [pos(1:10)' pos(end-10:end)'];
 Matrizreduzida = [Ans(escolha, :)];
 
-%Decomposição da Matriz Reduzida
-
+% Decomposição da Matriz Reduzida
 [T1, S2, V3] = svd(Matrizreduzida, "econ");
 
 diagonal_S = diag(S); % Pega a diagonal principal
 dist_import_relativa = diagonal_S/sum(diagonal_S);
 
-%Criação do gráfico de decomposição da matriz reduzida
-
+% Criação do gráfico de decomposição da matriz reduzida
 figure
 hold on
     title('Valores Singulares Relativos da Matriz Reduzida') % Define o título
@@ -149,19 +147,19 @@ hold on
     title('Visualização do domínio das entidades')
     grid
     plot3(x, y, z, 'or')
-    %hold on
+    % hold on
     plot3(x(1:18), y(1:18), z(1:18),'*r')
 hold off
 
 
-%P(x) da matriz reduzida
+% P(x) da matriz reduzida
 
 alphanovo = Matrizreduzida'\b;
 figure
     title('Pesos associados aos atributos escolhidos')
     plot(alphanovo, '*')
 grid on 
-%Ver se o gráfico P(x) está longe do zero
+% Ver se o gráfico P(x) está longe do zero
 
 aux3 = Matrizreduzida' * alphanovo;
 num = exp(aux3);
